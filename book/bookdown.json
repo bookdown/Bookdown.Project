@@ -1,0 +1,10 @@
+{
+    "title": "My Book",
+    "content": {
+        "example": "example.md"
+    },
+    "target": "../_site/",
+    "templates": {
+        "head": "../templates/head.php"
+    }
+}
