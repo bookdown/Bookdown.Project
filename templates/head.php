@@ -1,9 +1,5 @@
+<?php use Aura\Html\Escaper as e; ?>
 <head>
-<?php
-    $this->title()->set($this->page->getTitle());
-    $this->styles()->add('/style.css');
-
-    echo $this->title();
-    echo $this->styles();
- ?>
+    <title><?= e::h($this->page->getTitle()); ?></title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
