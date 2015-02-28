@@ -1,0 +1,5 @@
+{
+    "require": {
+        "bookdown/bookdown": "dev-master"
+    }
+}

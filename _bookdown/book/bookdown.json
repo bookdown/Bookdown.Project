@@ -3,7 +3,7 @@
     "content": {
         "example": "example.md"
     },
-    "target": "../_site/",
+    "target": "../../",
     "templates": {
         "head": "../templates/head.php"
     }
