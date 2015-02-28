@@ -22,7 +22,7 @@ To browse the example HTML, run the built-in PHP server:
 
 Edit the `templates/head.php` file to modify the `<head>` on all generated files.
 
-Edit the `book/bookdown.json` file to add your own content, including both Markdown and other `bookdown.json` files.
+Edit the `book/bookdown.json` file to add your own `book/` content, including both Markdown and other `bookdown.json` files.
 
 You may wish to add the following lines to `{$REPO}/.gitignore`:
 
