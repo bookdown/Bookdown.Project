@@ -4,7 +4,5 @@
         "example": "example.md"
     },
     "target": "../../",
-    "templates": {
-        "head": "../templates/head.php"
-    }
+    "template": "../templates/main.php"
 }
