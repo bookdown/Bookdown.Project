@@ -1,8 +1,8 @@
 {
     "title": "My Book",
-    "content": {
-        "example": "example.md"
-    },
+    "content": [
+        "example.md"
+    ],
     "target": "../../",
     "template": "../templates/main.php"
 }
