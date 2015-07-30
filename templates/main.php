@@ -10,8 +10,8 @@ $templates = $this->getViewRegistry();
 $templates->set("head", "{$project}/head.php");
 $templates->set("body", "{$library}/body.php");
 $templates->set("core", "{$library}/core.php");
-$templates->set("navheader", "{$library}/navheader.php");
-$templates->set("navfooter", "{$library}/navfooter.php");
+$templates->set("navheader", "{$project}/navheader.php");
+$templates->set("navfooter", "{$project}/navfooter.php");
 $templates->set("toc", "{$library}/toc.php");
 ?>
 <html>
