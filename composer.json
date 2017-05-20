@@ -10,7 +10,7 @@
         "static site"
     ],
     "homepage": "https://github.com/bookdown/Bookdown.Project",
-    "license": "BSD-2-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Bookdown.Project Contributors",

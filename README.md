@@ -4,7 +4,7 @@ This forms a skeleton Bookdown production project, with an eye toward publishing
 
 First, clone the repository you want to work in, called `{$REPO}`. This may be a user/organization repository (`organization.github.io`) or a Github project `gh-pages` branch.
 
-Then use composer to install the Bookdown project as a subdirectory inside `{$REPO}`. We suggest `_bookdown` since Github Pages will not publish directory-prefixed paths.
+Then use composer to install the Bookdown project as a subdirectory inside `{$REPO}`. We suggest `_bookdown` since Github Pages will not publish underscore-prefixed directories.
 
     cd {$REPO}
     composer create-project -s dev bookdown/project _bookdown
