@@ -19,6 +19,5 @@
     ],
     "require": {
         "bookdown/bookdown": "~1.0"
-    },
-    "minimum-stability": "dev"
+    }
 }
